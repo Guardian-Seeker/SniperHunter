@@ -1,0 +1,13 @@
+{
+  "name": "sniper-hunter",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "start": "node server/index.cjs --no-browser"
+  },
+  "devDependencies": {
+    "postject": "1.0.0-alpha.6",
+    "rcedit": "5.0.2"
+  }
+}

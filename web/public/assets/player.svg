@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <filter id="icon-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <g filter="url(#icon-shadow)">
+    <!-- 
+      Shape path:
+      - Start at top tip (50, 10)
+      - Line down to bottom-right wing tip (80, 78)
+      - Gentle slant inward/upward to the cutout edge (59, 73)
+      - Arc (large semi-circle cutout) from (59, 73) to (41, 73)
+      - Gentle slant downward/outward to bottom-left wing tip (20, 78)
+      - Close path back up to top tip (50, 10)
+    -->
+    <path d="M 50 10 
+         L 80 78 
+         L 59 73 
+         A 9 9 0 0 0 41 73 
+         L 20 78 
+         Z" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="miter" stroke-linecap="square" />
+  </g>
+</svg>
